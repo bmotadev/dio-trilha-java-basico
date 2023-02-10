@@ -3,6 +3,6 @@ public class Operadores {
         String nomeUm = "BRUNO";
         String nomeDois = new String("BRUNO");
 
-        System.out.println(nomeUm.equals(nomeDois));
+        System.out.println(nomeUm.equals(nomeDois)); // equals mais recomendado para comparar objetos
     }
 }
