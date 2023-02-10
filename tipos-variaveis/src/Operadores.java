@@ -1,28 +1,8 @@
 public class Operadores {
     public static void main(String[] args) {
-        //classe Operadores.java
-                    
-            //qual o resultado das expressoes abaixo?
-            String concatenacao ="?"; 
+        String nomeUm = "BRUNO";
+        String nomeDois = new String("BRUNO");
 
-            concatenacao = 1+1+1+"1";
-
-            System.out.println(concatenacao);
-
-            concatenacao = 1+"1"+1+1;
-
-            System.out.println(concatenacao);
-
-            concatenacao = 1+"1"+1+"1";
-
-            System.out.println(concatenacao);
-
-            concatenacao = "1"+1+1+1;
-
-            System.out.println(concatenacao);
-
-            concatenacao = "1"+(1+1+1);
-
-            System.out.println(concatenacao);
+        System.out.println(nomeUm.equals(nomeDois));
     }
 }
